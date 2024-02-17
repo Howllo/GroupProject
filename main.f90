@@ -10,7 +10,6 @@ program mortgage
     character(25) :: column2 = " Balance:", column3 = " Scheduled Payment:", column4 = " Monthly Interest:"
     
     !P = principal
-    !I = APR
     !L = length of loan in years
     !J = monthly interest in decimal(I/12^100)
     !N = num of months(L*12)
