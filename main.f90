@@ -84,7 +84,7 @@ program mortgage
         write(*, '(A, F10.2)') column2, Q
         write(*, '(A, F10.2)') column3, C
         write(*, "(A, F10.2)") column4, H
-        print*, " "
+        write(*, *) " ", " "
 
         !update principal
         P = Q
